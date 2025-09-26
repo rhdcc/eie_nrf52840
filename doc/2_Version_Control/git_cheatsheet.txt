@@ -24,3 +24,12 @@ git fetch
 - Will download any commits from the remote repository, and it will update
   the *remote branches* (that are on my LOCAL machine).
   It will NOT update the *local branches* in my repository!
+
+git add
+- Add files to the staging area
+
+git status
+- Display stuff
+
+git log
+- Log!
