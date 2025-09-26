@@ -1,0 +1,26 @@
+git commit
+
+git branch
+
+git checkout
+
+git pull
+- A combination of 'git fetch' and 'git merge'. For example, if you are on the main
+  branch, and you 'git fetch' new commits, then the origin/main branch is updated.
+  Then you call 'git merge origin/main' FROM the main branch, in order to update
+  the *local branch* main.
+
+git push
+
+git merge
+
+git rebase
+- Basically, if you are on C1 (commit C1), which is where b1 (a branch tag)
+  is pointing to, and there exists another branch branch b2 somewhere, 
+  (I assume anywhere?), then the command 'git rebase b2' will (I think)
+  *copy* the tree with root at C1 to the end of b2.
+
+git fetch
+- Will download any commits from the remote repository, and it will update
+  the *remote branches* (that are on my LOCAL machine).
+  It will NOT update the *local branches* in my repository!
