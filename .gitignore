@@ -19,3 +19,7 @@ __pycache__/
 !.vscode/**/*.default.*
 !.vscode/extensions.json
 !.vscode/eie.code-workspace
+
+# My random ignores
+dev_files.txt
+dev_files2.txt
