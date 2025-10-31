@@ -1,4 +1,4 @@
 #!/bin/bash
 set -xe
 
-picocom -b 115200 /dev/ttyACM1
+picocom -b 115200 /dev/ttyACM0
