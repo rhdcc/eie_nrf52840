@@ -1,0 +1,16 @@
+This is a file consisting of interesting problems I've encountered
+in this lesson.
+
+I created a script `listen.sh` to start picocom
+listening on port /dev/tty***, whichever one shows up.
+(I use the `diff` command on the dev/ directory to
+figure out which port I should connect to).
+
+When I run this script, picocom says that it cannot
+open the port and spits out a 'permission denied' error.
+
+I temporarily bypass this by simpley running ./listen under sudo,
+but this certainly is not a long term solution.
+
+So in the future, I should determing what permissions I need to do
+this, without giving picocom too many permissions.
